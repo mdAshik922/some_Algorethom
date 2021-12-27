@@ -1,6 +1,6 @@
 class Dictionary {
     constructor(){
-        this.dictionary = {}
+        this.dictionary = {};
     }
     add(key, value){
         this.dictionary[key] = value;
