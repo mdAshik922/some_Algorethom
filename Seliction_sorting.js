@@ -6,7 +6,7 @@ function Selection_sorting(array){
        for ( let j = i; j < array.length; j++){
            if(array[j] < array[min]){
                min = j;
-           }
+           };
        }
        [array[i], array[min]] = [array[min], array[i]];
         }
