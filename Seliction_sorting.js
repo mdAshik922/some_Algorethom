@@ -12,5 +12,5 @@ function Selection_sorting(array){
         }
         return array;
 }
-const select = Selection_sorting(number);
+const select = Selection_sorting();
 console.log(select);
