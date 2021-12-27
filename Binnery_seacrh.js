@@ -9,7 +9,7 @@ function Binnery_search(array, target){
              return mid;
          }
          if(target < array[mid]){
-             end = mid - 1;
+             
 
          }
          if(target > array[mid]){
