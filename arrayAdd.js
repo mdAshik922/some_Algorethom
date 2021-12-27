@@ -6,5 +6,4 @@ function arrayTotal (numbers){
         }
          return sum;
         }; 
-    const total = arrayTotal([32, 44, 1]);
-    console.log(total)
+    
