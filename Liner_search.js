@@ -7,7 +7,7 @@ function linear_search(array, target){
             return i;
         }
     }
-    
+    return -1
 }
 
 const index = linear_search(number, 69);
