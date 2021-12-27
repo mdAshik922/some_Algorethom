@@ -7,6 +7,6 @@ class Dictionary {
 
     }
     get(key){
-        return this.dictionary[key];
+        ;
     }
 }
