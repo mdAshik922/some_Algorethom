@@ -19,6 +19,6 @@ function Binnery_search(array, target){
      }
      return -1;
 };
-const index = Binnery_search(number, 78)
+const index = Binary_search(number, 78)
 
 console.log(index);
