@@ -14,7 +14,7 @@ function Binary_search(array, target){
          }
          if(target > array[mid]){
              start = mid + 1;
-         }
+         };
       
      }
      return -1;
