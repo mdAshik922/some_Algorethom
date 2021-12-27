@@ -4,7 +4,7 @@ function arrayTotal (numbers){
     {const element = numbers[i];
          sum += element;
         }
-         
+         return sum;
         }; 
     const total = arrayTotal([32, 44, 1]);
     console.log(total)
