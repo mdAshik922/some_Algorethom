@@ -11,4 +11,4 @@ function linear_search(array, target){
 }
 
 const index = linear_search(number, 69);
-console.log(index)
+console.log(index);
