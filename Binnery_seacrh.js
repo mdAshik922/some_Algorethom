@@ -1,6 +1,6 @@
 const number = [11, 32, 54, 61, 65, 78, 100, 125, 450, 600];
 
-function Binnery_search(array, target){
+function Binary_search(array, target){
     let start = 0;
     let end = array.length -1;
      while (start <= end){
