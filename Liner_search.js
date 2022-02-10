@@ -1,4 +1,4 @@
-const number = [45, 1, 2, 54, 69, 54, 69, 74, 32, 42];
+const number = [45, 1, 2, 54, 69, 54, 69, 74, 32, 42, 8];
 
 function linear_search(array, target){
     for(let i = 0; i < array.length; i++ ){
