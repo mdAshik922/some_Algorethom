@@ -26,6 +26,6 @@ if(newItem.indexOf(element) == -1){
     return uniqname;
 }
 // console.log(removeDuplicate(names));
-const uniqname = removeDuplicate(names)
+const uniqname = removeDuplicate(names);
 console.log(uniqname);
 
