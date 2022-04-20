@@ -13,15 +13,14 @@ function removeDuplicate(name){
 
     const newItem = [];
     for( let i = 0; i < name.length; i++ ){
-        const elements = name[i];
-        console.log(elements);
-
+        const elements = name[i] == -1;
+        newItem.push(elements);
     };
     for(const element of names){
 console.log(element);
 if(newItem.indexOf(element) == -1){
     newItem.push(element);
-}
+};
     };
     return newItem;
 }
