@@ -7,25 +7,25 @@
 // console.log(date.getFullYear());
 
 
-const names = [ 1, 2, 4, 1, 5, 90, 2, 10, 60, 40, 20, 15, 16, 13, 90]
+const names = [ 1, 2, 4, 1, 5, 90, 2, 10, 60, 40, 20, 15, 16, 13, 90];
 
-function removeDuplicate(names){
+function removeDuplicate(name){
 
     const newItem = [];
-    // for( let i = 0; i < names.length; i++ ){
-    //     const elements = names[i];
-    //     console.log(elements);
+    for( let i = 0; i < name.length; i++ ){
+        const elements = name[i];
+        console.log(elements);
 
-    // };
+    };
     for(const element of names){
 console.log(element);
 if(newItem.indexOf(element) == -1){
-    uniqname.push(element)
+    newItem.push(element)
 }
     };
-    return uniqname;
+    return newItem;
 }
 // console.log(removeDuplicate(names));
-const uniqname = removeDuplicate(names);
-console.log(uniqname);
+const uniqName = removeDuplicate(names);
+console.log(uniqName);
 
