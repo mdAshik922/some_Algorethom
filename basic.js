@@ -20,7 +20,7 @@ function removeDuplicate(name){
     for(const element of names){
 console.log(element);
 if(newItem.indexOf(element) == -1){
-    newItem.push(element)
+    newItem.push(element);
 }
     };
     return newItem;
