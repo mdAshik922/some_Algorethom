@@ -13,7 +13,7 @@ function removeDuplicate(name){
 
     const newItem = [];
     for( let i = 0; i < name.length; i++ ){
-        const elements = name[i] == -1;
+        const elements = name[i];
         newItem.push(elements);
     };
     for(const element of names){
