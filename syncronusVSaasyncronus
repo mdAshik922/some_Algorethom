@@ -1,0 +1,11 @@
+setTimeOut{() => {
+const user = { id: 1};
+setTimeOut{() => {
+ const product = [(), (), ()];
+ setTimeOut{() => {
+ const price = [];
+ }100};
+ } 600};
+}500};
+
+console.log("hopp)
