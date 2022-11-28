@@ -28,3 +28,5 @@ if(newItem.indexOf(element) == -1){
 const uniqName = removeDuplicate(names);
 console.log(uniqName);
 
+const kk = Math.pow(4, 0.5) + "spiderman" + "987" + Math.sqrt(9);
+console.log(kk)
