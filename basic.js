@@ -1,4 +1,4 @@
- var a = 10.38968;
+// var a = 10.38968;
 // console.log(Math.floor(a));
 // console.log(Math.ceil(a));
 // console.log(Math.round(Math.random()*10));
