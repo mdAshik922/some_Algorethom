@@ -7,6 +7,7 @@ function linear_search(array, target){
             return i;
         }
     }
+    
     return -1
 }
 
